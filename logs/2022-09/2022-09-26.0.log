@@ -1,0 +1,27 @@
+18:25:36.513 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+18:25:36.525 INFO  web.backend.BackendApplication - Starting BackendApplication using Java 17.0.4.1 on jeong-gyeongsuui-MacBookPro.local with PID 35911 (/Users/soo/Desktop/backend/build/classes/java/main started by soo in /Users/soo/Desktop/backend)
+18:25:36.527 INFO  web.backend.BackendApplication - The following 1 profile is active: "local"
+18:25:37.906 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:25:38.007 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+18:25:39.064 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+18:25:39.076 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+18:25:39.077 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:25:39.077 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+18:25:39.216 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:25:39.217 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2596 ms
+18:25:39.443 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:25:39.500 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+18:25:39.653 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:25:39.811 WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+18:25:39.813 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:25:39.950 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:25:39.979 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+18:25:40.516 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:25:40.521 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:25:41.136 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:25:41.573 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+18:25:41.594 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+18:25:41.612 INFO  web.backend.BackendApplication - Started BackendApplication in 5.839 seconds (JVM running for 6.576)
+18:33:03.300 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:33:03.309 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:33:03.328 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
